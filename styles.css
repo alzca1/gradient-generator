@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:900&display=swap");
+
+    .body {
+      font-family: "Roboto";
+      font-size: 18px;
+      background:linear-gradient(to right, rgba(20, 249, 224, 0.87), rgba(192, 225, 53, 0.95));
+    }
+
+h1 {
+    font-family: Roboto;
+    font-size: 3rem; 
+    text-align: center;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 250px); */
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 20px 2vw;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: 800; 
+  font-family: Roboto; 
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  border-radius: 80px;
+}
+
+.message {
+  display: flex;
+  background: rgba(0, 0, 0, 0.6);
+  grid-column: 1 / -1;
+  grid-row: 1/-1;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  height: 10vh;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 50vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+button{
+    background:RGBA(21, 126, 251, 1);
+    padding: 10px; 
+    color: white; 
+    border: none;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    margin: auto; 
+    display: block; 
+    
+  }
+
+  button:active{
+    background: RGBA(74, 242, 161, 1.00);
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+          10px 10px 15px rgba(0,0,0,0.5),
+          -1px -1px 30px rgba(0,0,0,0.2);
+  }
+
